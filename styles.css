@@ -1,0 +1,289 @@
+*{
+border: 0;
+margin: 0;
+}
+
+img
+{
+border: 0px;
+}
+
+body{
+	font: 12px Arial, Helvetica, sans-serif;
+	color: #000000;
+	background: url(images/bg.jpg) top center no-repeat #76B4E5;
+	line-height: 20px;
+}
+
+
+#main_bg {
+	width: 1046px;
+	background: url(images/main_bg.png) left repeat-y;
+	margin: 0px auto;}
+	
+#main {
+	width: 1010px;
+	margin: 0px auto;}
+
+#header { 
+	width:1010px;
+	background: url(http://190.210.180.34/orion/img_destinos/348ae648d96e08605c06add2c7ff3c0e.jpg) left top no-repeat;
+	height: 390px;
+}
+
+#logo {	
+		height: 233px;
+		background: url(images/big_img.jpg) left top no-repeat;
+		padding: 108px 0px 0px 800px;
+}
+
+#logo H2 {
+
+		font-family: Georgia, "Times New Roman", Times, serif;
+		color:#FFFFFF;
+		font-size:18px;
+		font-style:italic;
+		}
+
+#logo a {
+	text-decoration: none;
+	text-transform: uppercase;
+    margin-right:1px;
+	font-style: italic;
+	color: #FFFFFF;
+}
+	
+#logo H2 a{
+	font-size: 12px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight:100;
+}
+
+#buttons{
+	text-align:center;
+	height: 39px;
+	margin-left: 0px;
+	padding-left: 0px;
+	background: url(images/bg_but.gif) top repeat-x;
+}
+
+#buttons a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	display: block;
+	float: left;
+	text-decoration: none;
+	color: #FFFFFF;
+	text-align: center;
+	padding-top: 11px;
+	height: 28px;
+}
+
+.but {
+	width: 202px;
+}
+#buttons .but:hover {
+	background:url(images/but_hov.gif) top repeat-x ;}
+
+#content{
+	width: 100%;
+}
+
+#left{
+	width: 696px;
+	float: left;
+	color:#000000;
+	margin-left: 9px;
+}
+
+.munth_box {
+	padding: 3px 15px 0px 39px;
+	background: url(images/fish_left.gif) 6px 7px no-repeat;
+}
+
+.left_box {
+	border: 1px solid #ABD4F4;
+}
+
+.text{
+	padding: 0px 20px 15px 9px;
+}
+
+.left_col {
+	float:left;
+	width:537px;}
+
+.right_col {
+	float: right;
+	width: 107px;
+}
+
+
+
+.img_l {	float:left;
+		margin: 3px 15px 3px 0px;
+}
+
+.img_r {	float: right;
+		margin: 3px 6px 3px 10px;
+}
+
+.span_right {	color: #004880;
+	font-size:12px;
+	font-weight:bold;
+}
+
+.span_left {	color: #77D468;
+	font-size:12px;
+	font-weight:bold;
+}
+
+#left H1{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:18px;
+	font-weight: 100;
+	color: #0D6000;
+	text-align: left;
+	padding: 10px 0px 20px 10px;
+	background: url(images/title.gif) top repeat-x;
+}
+
+#right H1{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:18px;
+	font-weight: 100;
+	color: #496A2D;
+	text-align: center;
+	padding: 10px 0px 10px 10px;
+	background: url(images/title.gif) top repeat-x;
+}
+
+.read_r{
+	text-align:right;
+	padding-right:5px;
+	padding-top: 0px;
+}
+
+.read_r a {
+	font-weight:bold;
+	font-size:12px;
+	color: #77D468;
+	text-decoration:underline;
+}
+
+.read_r a:hover {
+	font-weight:bold;
+	font-size:12px;
+	color: #77D468;
+	text-decoration: none;
+}
+
+.read_l{
+	text-align:right;
+	padding-right:5px;
+	padding-bottom: 3px;
+	background: url(images/b_read.gif) right 0px no-repeat;
+}
+
+.read_l a {
+	font-weight:bold;
+	font-size:12px;
+	color: #117C00;
+	text-decoration: none;
+	padding-right: 2px;
+	
+}
+
+.read_l a:hover {
+	font-size:12px;
+	color: #000000;
+	text-decoration: none;
+}
+
+#right{
+	float: right;
+	width: 285px;
+	margin-right: 9px;
+}
+
+
+
+#right_bg{
+	background: url(images/right_bg.gif) left repeat-y;
+	padding: 0px 18px 0px 18px;
+	
+}
+
+.opt {
+	background:url(images/opt.gif) right bottom no-repeat;
+	height: 30px;}
+
+.opt_a {
+	padding: 10px 0px 0px 27px;
+	background: url(images/fish1.gif) 4px 15px no-repeat;
+	}
+.opt_a:hover {
+	}
+	
+.opt_a a {
+	color:#004880;
+	text-decoration:none;}
+
+.dat { padding: 10px 5px 0px 27px;
+		background:url(images/fish1.gif) 4px 15px no-repeat;}
+
+
+#footer{
+	height: 40px;
+	font-size: 11px;
+	color: #ffffff;
+	text-align: center;
+	padding: 12px 0px 0px 0px;
+	background: url(images/footer.gif) bottom repeat-x;
+}
+
+#footer a{
+	color: #ffffff;
+	font-size: 11px;
+	text-decoration: none;
+}
+
+#footer a:hover{
+	color: #ffffff;
+	font-size: 11px;
+	text-decoration: underline;
+}
+
+
+.left_res
+{
+width: 50%;
+float: left;
+}
+
+.left_res a
+{
+color: #4E6E33;
+font-weight: bold;
+}
+
+.right_res
+{
+float: right;
+width: 50%;
+}
+
+.right_res a
+{
+color: #4E6E33;
+font-weight: bold;
+}
+
+ul{
+color: #4E6E33;
+}
+#titulo {
+    font-size:4em;
+    color:white;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
