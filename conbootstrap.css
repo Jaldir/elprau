@@ -1,6 +1,8 @@
 
 #top_logo {
-    display:inline-block;
+    background-image: url("http://advisortravelguide.com/wp-content/uploads/2014/04/Museo-del-Prado1.jpg");
+    height:250px;
+    margin: 10px;
 }
 
 h1 {
