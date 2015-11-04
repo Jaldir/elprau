@@ -1,0 +1,109 @@
+
+#top_logo {
+    display:inline-block;
+}
+
+h1 {
+    display:inline-block;
+    margin-bottom:1.2em;
+    font-weight:bold;
+    color:grey;
+    font-size:2em;
+}
+
+#home_img {
+    display:inline-block;
+}
+
+#home_letra {
+    display:inline-block;
+}
+
+*{font-family:"trebuchet ms",arial,sans-serif;
+}
+
+.btn-default {
+    padding:0.8em;
+}
+
+
+.btn-group {
+    border-radius:0em;
+    margin-left:0.33em;
+}
+
+.btn {
+    border-radius:0px;
+    background-color:transparent;
+}
+
+.dropdown-menu {
+    border-radius:0em;
+    padding-bottom:0em;
+    margin-top:0em;
+    background-color:#f0efef;
+    border-color:#c7c7c7;
+}
+
+
+#barraverde {
+    height:54px;
+    background-image:url(img/bg_head_middle.jpg);
+    margin-left:-0.66em;
+    margin-right:0em;
+    width:auto;
+}
+
+#back {
+    background-color:#f4f4f4;
+}
+
+
+#home {
+    margin-top:0.66em;
+}
+
+h2 {
+    font-weight:bold;
+    font-size:2em;
+}
+
+
+#footer_text {
+    text-align: center;
+}
+
+.put {
+    background-color:#f4f4f4;
+}
+
+
+.navbar-default {
+    margin-left:-1.07em; <!--1.07em=15px-->
+}
+
+
+#sections_barra {
+    background-color:#bfbfbf;
+    margin-left:-1.07em;
+    margin-bottom:-0.54em;
+    margin-top:0.66em;
+    padding-top:3px;
+    padding-bottom:3px;
+    padding-left:1.07em;
+    color:white;
+    border-top-right-radius:1.07em;
+}
+
+
+#navbar-element {   
+     padding-left:1.07em;
+    border-bottom: solid;
+    border-bottom-width:thin;
+    border-bottom-color:#c7c7c7;
+}
+
+.page-header {
+    border-bottom:0.7em solid #eee;
+    padding-bottom:0px;
+}
