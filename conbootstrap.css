@@ -72,8 +72,10 @@ h2 {
 }
 
 
-#footer_text {
+#redes {
     text-align: center;
+    height: 3em;
+    
 }
 
 .put {
@@ -115,4 +117,7 @@ h2 {
     padding-right: 100px;
 }
 
-
+#grupi {
+    margin-left:23px;
+    margin-bottom:10px;
+}
