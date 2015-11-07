@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+    <head> 
+        <title>El Prao </title>
+        <script src="http://yui.yahooapis.com/3.18.1/build/yui/yui-min.js"></script>
+        <link href="bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="conbootstrap.css">
+        <script src="jquery.min.js"></script>
+        <script src="bootstrap.min.js"></script> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    </head>
+    <body>
+<div class="container">
+    <div class="row" id="back">
+        <div class="col-md-12">
+            <div id="top_logo">
+                <h1>El Prao</h1>
+            </div>
+        </div>
+    </div>
+    <div class="row" id="back">
+            <div class="btn-group" id="grupo" role="group" aria-label="...">
+                    <a href="principal.html" class="btn btn-default">Inicio</a>
+                    <a href="personal.html" class="btn btn-default">Personal</a>
+                    <a href="segunda.html" class="btn btn-default">Actividades</a>
+                    <a href="servicios.html" class="btn btn-default">Servicios</a>
+                    <a href="segunda.html" class="btn btn-default">Otros museos</a>
+            </div>
+    </div>
+    <div class="row">
+        <img id="hr" src="http://tr1.cbsistatic.com/hub/i/2015/05/07/57882267-f4aa-11e4-940f-14feb5cc3d2a/07052012figure_i.gif"></img>
+    </div>
+
+
+<div class="row">
+        <div class="col-md-3 hidden-xs">
+            <div id="sections_barra">Noticias</div>
+            <nav class="navbar-default">
+                <ul class="list-unstyled">
+                    <div class="navbar-btn"><li id="navbar-element"><a href="#"> El Prao elegido mejor museo de Europa 2015 </a></li></div>
+                    <div class="navbar-btn"><li id="navbar-element"><a href="#">El museo del ferrocaril, colaboración exclusiva</a></li></div>
+                    <div class="navbar-btn"><li id="navbar-element"><a href="#">Noche el el Prao Octubre</a></li></div>
+                    <div class="navbar-btn"><li id="navbar-element"><a href="#">Michaelangelo colaboración especial 2012</a></li></div>
+                    <div class="navbar-btn"><li id="navbar-element"><a href="#">El presidente viene al Prao</a></li></div>
+                </ul>
+            </nav> 
+            <img src="https://www.museodelprado.es/uploads/pics/detalle_monteria_home_01.jpg"/>
+        </div>
+        <div class="col-md-9">
+            <div id="myTabView">
+                <!-- AQUI SE POSICIONA EL TAB VIEW -->
+            </div>
+            <p style="text-align:center"> <img id="redes" src="http://victorgb.com/wp-content/uploads/2015/07/redes-sociales-2015.png"/></p>
+        </div>
+</div>
+</div>
+    </body>
+
+<script>
+YUI().use('tabview', function (Y) {
+    var tabview = new Y.TabView({
+        children: [{
+            label: '<p>Bienvenida</p>',
+            content: '<div class="staff"><h2>El Prao</h2><p>Situado en pleno centro administrativo de Madrid, el Prao es un referente universal del a pintura postromántica, post anglosajona y postapocalíptica.</p></div><div class="staff"><h3>Contacto</h3><p>Avenida de la Luz Nº29, 28345 Madrid (Madrid)</p><p>Abierto todos los días del año excepto 26 de diciembre, de 10:30 a 20:00</p><p>Teléfono de contacto: 912342323</p></div><div class="staff"><h3>Tarifas</h3><table><tr><td>Menores de 5 años</td><td>2.9 euros</td></tr><tr><td>De 5 a 59 años</td><td>9 euros</td></tr><tr><td>Mayores de 60</td><td> 3.2 euros</td></tr><tr><td>Circustancias especiales</td><td>7.5 euros</td></tr></table></div>'
+        }, 
+        {
+            label: '<p>Una sombra bajo el olivo</p>',
+            content: '<div class="staff"><h2>Una sombra bajo el olivo</h2><p>La exposición de esta temporada, elegida como mejor exposición en los últimos dos años, acerca al visitante al fresco mundo de los cuadros castellanos.</p></div><div class="staff"><h3>Datos prácticos</h3><p>El Prao. Edificio D. (Avenida de la Luz Nº29, 28345 Madrid (Madrid))</p><p>Esta exposición tendrá lugar desde el día 1 de octubre 2015 hasta marzo de 2016.</p></div><div class="col-md-10 col-md-offset-1"><img class="imgexp" src="/pics/olivo.jpg"></img></div>'
+        },
+                  {
+            label: '<p>Michelangelo</p>',
+            content: '<div class="staff"><h2>Michaelangelo</h2><p>Pintor, ingeniero, científico, rumoreado poeta. Explore su vida y obras en esta nueva muestra de su talento . Cuadros cedidos por el Ministerio de Agricultura de Italia.</p></div><div class="staff"><h3>Datos prácticos</h3><p>El Prao. Edificio E. (Avenida de la Luz Nº29, 28345 Madrid (Madrid))</p><p>Esta exposición tendrá lugar desde el día 12 de Noviembre 2015 hasta Enero de 2016.</p></div><div class="col-md-10 col-md-offset-1"><img class="imgexp" src="/pics/michelangelo.jpg"></img></div>'
+        },
+                   {
+            label: '<p>Los trenes en el arte</p>',
+            content: '<div class="staff"><h2>Los trenes en el arte</h2><p>La llegada del ferrocaril cambió por completo la sociedad de sus países. Es por ello que quedó reflejado en todas las formas de arte. De forma concreta, es posible reconocerlos en cientos de obras maestras. Descúbralas.</p></div><div class="staff"><h3>Datos prácticos</h3><p>El Prao. Edificio G. (Avenida de la Luz Nº29, 28345 Madrid (Madrid))</p><p>Esta exposición tendrá lugar desde el día 1 de Septiembre 2015 hasta el 31 de Diciembre de 2015.</p></div><div class="col-md-10 col-md-offset-1"><img class="imgexp" src="/pics/trenes.png"></img></div>'
+        }]
+    }).render('#myTabView');
+});
+</script>
+</html>
