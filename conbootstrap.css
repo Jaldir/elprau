@@ -1,6 +1,6 @@
 
 #top_logo {
-    background-image: url("http://advisortravelguide.com/wp-content/uploads/2014/04/Museo-del-Prado1.jpg");
+    background-image: url("pics/elprao.jpg");
     height:350px;
     margin: 10px;
     background-size: 100% 100%;
@@ -40,26 +40,6 @@ h1 {
     background-color:#f0efef;
     border-color:#c7c7c7;
 }
-
-
-#barraverde {
-    height:54px;
-    background-image:url(img/bg_head_middle.jpg);
-    margin-left:-0.66em;
-    margin-right:0em;
-    width:auto;
-}
-
-#back {
-    background-color:#f4f4f4;
-}
-
-
-#home {
-    margin-top:0.66em;
-}
-
-
 
 #redes {
     width:25%;
@@ -112,12 +92,12 @@ h1 {
 
 #hr {
     width: 100%;
-    height: 8px;
+    height: 1.5em;
 }
 
 .staff {
     padding: 2em;
-     background-image:url("/pics/aurl2.jpg");
+     background-image:url("pics/aurl2.jpg");
     margin-bottom:4px;
     border-radius:5px;
 }
