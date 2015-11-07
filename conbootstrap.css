@@ -109,7 +109,7 @@ h2 {
     padding-right: 100px;
 }
 
-#grupi {
+#grupo {
     margin-left:23px;
     margin-bottom:10px;
 }
@@ -121,15 +121,25 @@ h2 {
 
 .staff {
     padding: 2em;
+     background-image:url("/pics/aurl.jpg");
+    margin-bottom:2px;
+    border-radius:5px;
 }
 
 .profilepic {
-    width:85%;
     margin-top:1em;
+    width:8em;
+    height:8em;
 }
 
 .person {
-    background-color:aquamarine;
+    
     border-radius:10px;
     text-align: center;
+    height:22em;
+   
+}
+
+h3 {
+    color:darkblue;
 }
