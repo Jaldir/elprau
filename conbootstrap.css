@@ -33,21 +33,9 @@ h1 {
     background-color:transparent;
 }
 
-.dropdown-menu {
-    border-radius:0em;
-    padding-bottom:0em;
-    margin-top:0em;
-    background-color:#f0efef;
-    border-color:#c7c7c7;
-}
-
 #redes {
     width:25%;
     
-}
-
-.put {
-    background-color:#f4f4f4;
 }
 
 
@@ -80,10 +68,6 @@ h1 {
     border-bottom:0.7em solid #eee;
     padding-bottom:0px;
 }
-.bto {
-    padding-left: 20%;
-    padding-right: 100px;
-}
 
 #grupo {
     margin-left:23px;
@@ -108,13 +92,6 @@ h1 {
     height:8em;
 }
 
-.person {
-    
-    border-radius:10px;
-    text-align: center;
-    height:22em;
-   
-}
 
 h3 {
     color:darkblue;
